@@ -1,0 +1,1081 @@
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px)  {
+
+
+	body {
+
+		min-width:320px !important;
+		max-width: 480px !important;
+	}
+
+	div.nav .wrap {
+
+		width:320px !important;
+	}
+
+	header, {
+
+		min-width:320px !important;
+		max-width: 480px !important;
+		height: 30px;
+
+	}
+
+	header h1{
+		-ms-transform: scale(0.7,0.7); /* IE 7 */
+		-webkit-transform: scale(0.7,0.7); /* Safari and Chrome */
+		-o-transform: scale(0.7,0.7); /* Opera */
+		-moz-transform: scale(0.7,0.7); /* Firefox */
+		margin-left: -40px;
+		margin-top: -20px;
+
+	}
+
+	#content{
+
+		min-width:320px !important;
+		max-width: 480px !important;
+
+	}
+
+	#content #head{
+		margin-top: 0px;
+		min-width:320px !important;
+		max-width: 480px !important;
+
+	}
+
+	#content #head section{
+		min-width:320px !important;
+		max-width: 480px !important;
+		margin:0 auto !important;
+
+	}
+
+	#content #head section article{
+
+		min-width: 250px;
+		max-width: 250px;
+		height: 150px;
+		margin:0 auto !important;
+	}
+
+	#content #head section article h2{
+		font-size: 2em !important;
+	}
+
+	#content #head section article h3{
+
+		font-size: 1.5em !important;
+	}
+
+	#wrapper{
+
+		padding: 10px !important;
+		margin:0 auto !important;
+		width:300px !important;
+	}
+	#wrapper #slider  {
+
+		margin-top: 10px;
+
+	}
+	#wrapper #slider div {
+
+		min-width:280px;
+		max-width: 300px;
+		margin:0 auto !important;
+
+	}
+
+	#wrapper #slider div article{
+		min-width:280px;
+		max-width: 280px;
+		margin: 0 auto;
+		float: none;
+		margin:0 auto !important;
+	}
+
+	#wrapper #slider div article p{
+		font-size: 14px !important;
+		line-height: 1.2em !important;
+	}
+
+	#wrapper #slider div section{
+		min-width:320px ;
+		max-width: 400px ;
+		float: none;
+		height: 205px ;
+		margin:0 auto 120px 0 !important;
+	}
+
+	#wrapper #slider div section h6{
+		margin-left: -50px;
+		margin-top: 20px;
+	}
+
+	#wrapper section{
+		width: 280px !important;
+		margin:0 auto !important;
+		height:  auto;
+		
+
+	}
+
+	#wrapper #slider div section iframe{
+
+	margin-top: 30px;
+	}	
+
+	#wrapper #slider div section.forms{
+		height: auto;
+		margin:0 auto -100px 0 !important;
+		padding-bottom:-50px;
+	}
+
+	#wrapper section.apply-forms{
+	}
+
+	#wrapper section.apply-forms iframe{
+		display: none;
+	}
+
+	#wrapper section.apply-forms article{
+		display: block;
+	}
+
+	#wrapper section div.input {
+
+		min-width:280px !important;
+		max-width: 360px !important;
+		margin:20px auto 40px auto !important;
+		padding-bottom: 80px;
+
+
+	}
+
+	#wrapper section div.input form{
+
+		width: 280px !important;
+		height: 100px;
+		margin:0 auto !important;
+
+	}
+
+
+	#wrapper section div.input form label{
+
+		float: none;
+
+	}
+	#wrapper section div.input form input.email-input{
+
+		width: 80%;
+		float: none;
+		margin: 0;
+
+	}
+
+	#wrapper section div.input form input.submit-button{
+
+		float: none;
+		margin-top: 20px;
+
+	}
+
+
+	#wrapper section{
+		max-width: 360px !important;
+		min-width:280px !important;
+		margin:0 auto !important;
+		float: none;
+
+
+	}
+
+	#wrapper section h4{
+		width: 260px !important;
+		margin:0 auto 30px auto !important;
+		background-position: top left;
+		line-height: 1.2em;
+		height: 40px;
+
+
+	}
+
+	#wrapper section div{
+		float: none;
+		width:260px !important;
+		margin:0 auto !important;
+	}
+
+	#wrapper section article{
+		float: none;
+		width:260px !important;
+		margin:0 auto 20px auto !important;
+		padding: 0 0 0 10px !important;
+	}
+
+	#wrapper section article h6{
+
+		font-size: 14px !important;
+	}
+
+	#wrapper section article p{
+		font-size: 1.3em !important;
+		margin: 10px 0 40px 0 !important;
+	}
+
+	#wrapper aside{
+		margin-top:20px;
+		width:260px !important;
+		margin:0 auto !important;
+		float: none;
+		border:none;
+	}
+
+	#wrapper aside article{
+		float: none;
+		width:260px !important;
+		margin:20px auto !important;
+
+	}
+
+	#wrapper  aside article h6{
+	margin-bottom: 10px;
+
+	}
+
+
+	#wrapper section form{
+
+	margin-bottom: 0 !important;
+
+	}
+
+	header div {
+		width: 320px;
+		margin: 0 auto;
+	}
+	header nav {
+	width: 90px !important;
+	float: right;
+	margin: 0;
+	right:0px;
+	padding: 0 !important;
+	position: absolute;
+	text-align: right;
+
+}
+
+	header nav ul li{
+
+		float: none;
+		clear:both;
+		margin: 10px 10px 0 0;
+		font-size: 10px;
+
+	}
+
+
+	header nav ul li.slash{
+		display: none;
+
+	}
+
+	#wrapper #slider div img {
+
+		margin-top: 50px;
+	}
+
+
+
+	input.green-button, a.green-button {
+
+			margin: 0 auto;
+
+		}
+
+	iframe {
+		margin: 30px 0 100px 0;
+
+	}
+
+	header div.social-widgets {
+		height: 30px;
+		width: 110px;
+		top: 65px;
+		left: 25%;
+		right: 25%;
+/*		left: 20;*/
+		background: #11486c;
+		border-radius: 3px;
+		-o-border-radius: 3px;
+		-ms-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		margin: 0 auto !important;
+		padding-left: 12px;
+
+	}
+	header div.social-widgets a{
+		background-size: 40px;
+		width: 20px;
+		height: 20px;
+		margin: 5px 10px 7px 4px;
+	}
+
+
+
+	header div.social-widgets a:hover,
+	header div.social-widgets a.tb:hover,
+	header div.social-widgets a.fb:hover,
+	header div.social-widgets a.tw:hover {
+		background-position: -20px 0;
+	}
+
+	div.nav .wrap {
+
+		width:320px !important;
+	}
+
+	div.nav, {
+
+
+	}
+
+	div.nav ul{
+	margin: 0 auto !important;
+	width: 320px;
+	}
+
+	div.nav ul li {
+	float: left;
+	padding: 14px 1px;
+	font-size: 9px;
+	border-left: 1px dotted #0f5976;
+	}
+
+
+	div.table-days{
+		-ms-transform: scale(0.5,0.5); /* IE 5 */
+		-webkit-transform: scale(0.5,0.5); /* Safari and Chrome */
+		-o-transform: scale(0.5,0.5); /* Opera */
+		-moz-transform: scale(0.5,0.5); /* Firefox */
+		margin: -100px 0 -100px -100px;
+
+
+	}
+
+	img.mini-thumb {
+		float: none;
+		clear: both;
+		padding: 5px;
+		width: 85%;
+	}
+
+
+}
+
+
+
+@media only screen and (min-width: 479px) and (max-width: 480px) and (min-height : 799px) and (max-height : 800px) and (orientation:portrait) {
+
+	body{
+
+		width:480px !important;
+	}
+
+	header{
+
+		width: 480px !important;
+		height: 30px;
+
+	}
+
+	header h1{
+		-ms-transform: scale(0.7,0.7); /* IE 7 */
+		-webkit-transform: scale(0.7,0.7); /* Safari and Chrome */
+		-o-transform: scale(0.7,0.7); /* Opera */
+		-moz-transform: scale(0.7,0.7); /* Firefox */
+		margin-left: 0px;
+		margin-top: -20px;
+
+	}
+
+	#content{
+
+		width: 480px !important;
+
+	}
+
+	#content #head{
+		margin-top: 0px;
+		width: 480px !important;
+
+	}
+
+	#content #head section{
+		width: 480px !important;
+		margin:0 auto !important;
+
+	}
+
+	#content #head section article{
+
+		width: 400px;
+		height: 150px;
+		margin:0 auto !important;
+	}
+
+	#content #head section article h2{
+		font-size: 2em !important;
+	}
+
+	#content #head section article h3{
+
+		font-size: 1.5em !important;
+	}
+
+	#wrapper{
+
+		padding: 10px !important;
+		margin:0 auto !important;
+		width:450px !important;
+	}
+	#wrapper #slider  {
+
+		margin-top: 10px;
+
+	}
+	#wrapper #slider div {
+
+		width: 450px;
+		margin:0 auto !important;
+
+	}
+
+	#wrapper #slider div article{
+		width: 400px;
+		margin: 0 auto;
+		float: none;
+		margin:0 auto !important;
+	}
+
+	#wrapper #slider div article p{
+		font-size: 14px !important;
+		line-height: 1.2em !important;
+	}
+
+	#wrapper #slider div section{
+		min-width:320px ;
+		max-width: 400px ;
+		float: none;
+		height: 200px;
+		margin:0 auto 120px 0 !important;
+		border: none;
+	}
+
+	#wrapper #slider div section h6{
+		margin-left: -50px;
+		margin-top: 20px;
+	}
+
+	#wrapper section div.input {
+
+		width: 450px !important;
+		margin:20px auto 40px auto !important;
+		padding-bottom: 80px;
+
+
+	}
+
+		#wrapper section div.input form{
+
+		width: 400px !important;
+		height: 100px;
+		margin:0 auto !important;
+
+	}
+
+
+	#wrapper section div.input form label{
+
+		float: none;
+
+	}
+	#wrapper section div.input form input.email-input{
+
+		width: 80%;
+		float: none;
+		margin: 0;
+
+	}
+
+	#wrapper section div.input form input.submit-button{
+
+		float: none;
+		margin-top: 20px;
+
+	}
+
+
+	#wrapper section{
+		width:450px !important;
+		margin:0 auto !important;
+		float: none;
+
+
+	}
+
+	#wrapper section h4{
+		width: 440px !important;
+		margin:0 auto 30px auto !important;
+		background-position: top left;
+		line-height: 1.2em;
+		height: 40px;
+
+
+	}
+
+	#wrapper section div{
+		float: none;
+		width:440px !important;
+		margin:0 auto !important;
+	}
+
+	#wrapper section article{
+		float: none;
+		width:440px !important;
+		margin:0 auto 20px auto !important;
+		padding: 0 0 0 10px !important;
+	}
+
+	#wrapper section article h6{
+
+		font-size: 14px !important;
+	}
+
+	#wrapper section article p{
+		font-size: 1.3em !important;
+		margin: 10px 0 40px 0 !important;
+	}
+
+	#wrapper aside{
+		margin-top:20px;
+		width:440px !important;
+		margin:0 auto !important;
+		float: none;
+		border:none;
+	}
+
+	#wrapper aside article{
+		float: none;
+		width:440px !important;
+		margin:20px auto !important;
+
+	}
+
+	#wrapper  aside article h6{
+	margin-bottom: 10px;
+
+	}
+
+
+	#wrapper section form{
+
+	margin-bottom: 0 !important;
+
+	}
+	#wrapper #slider div section iframe{
+
+	margin-top: 30px;
+	}
+
+	#wrapper #slider div section.forms{
+		height: auto;
+		margin:0 auto -100px 0 !important;
+		padding-bottom:-50px;
+	}
+
+	#wrapper section.apply-forms{
+	}
+
+	#wrapper section.apply-forms iframe{
+		display: none;
+	}
+
+	header div {
+		width: 480px;
+		margin: 0 auto;
+	}
+	header nav {
+	width: 90px !important;
+	float: right;
+	margin: 0;
+	right:0px;
+	padding: 0 !important;
+	position: absolute;
+	text-align: right;
+
+}
+
+	header nav ul li{
+
+		float: none;
+		clear:both;
+		margin: 10px 10px 0 0;
+		font-size: 10px;
+
+	}
+
+
+	header nav ul li.slash{
+		display: none;
+
+	}
+
+	#wrapper #slider div img {
+
+			margin-top: 50px;
+		}
+
+
+
+	input.green-button, a.green-button {
+
+		margin: 0 auto;
+
+	}
+
+	iframe {
+		margin: 30px 0 100px 0;
+
+	}
+
+
+	header div.social-widgets {
+		height: 30px;
+		width: 110px;
+		top: 65px;
+		left: 25%;
+		right: 25%;
+/*		left: 20;*/
+		background: #11486c;
+		border-radius: 3px;
+		-o-border-radius: 3px;
+		-ms-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		margin: 0 auto !important;
+		padding-left: 12px;
+
+	}
+	header div.social-widgets a{
+	/*	float: none;
+		clear: both;*/
+		background-size: 40px;
+		width: 20px;
+		height: 20px;
+		margin: 5px 10px 7px 4px;
+	}
+
+
+
+	header div.social-widgets a:hover,
+	header div.social-widgets a.tb:hover,
+	header div.social-widgets a.fb:hover,
+	header div.social-widgets a.tw:hover {
+		background-position: -20px 0;
+	}
+
+	div.nav .wrap {
+
+		width:480px !important;
+	}
+
+	div.nav, {
+
+
+	}
+
+	div.nav ul{
+	margin: 0 auto !important;
+	width: 480px;
+	}
+
+	div.nav ul li {
+	float: left;
+	padding: 14px 2px;
+	font-size: 10px;
+	border-left: 1px dotted #0f5976;
+	}
+
+	div.table-days{
+		-ms-transform: scale(0.5,0.5); /* IE 5 */
+		-webkit-transform: scale(0.5,0.5); /* Safari and Chrome */
+		-o-transform: scale(0.5,0.5); /* Opera */
+		-moz-transform: scale(0.5,0.5); /* Firefox */
+		margin: -100px 0 -100px -100px;
+	}
+
+	img.mini-thumb {
+		float: none;
+		clear: both;
+		padding: 5px;
+		width: 85%;
+	}
+
+@media only screen and (min-height: 479px) and (max-height: 480px) and (min-width : 799px) and (max-width : 800px) and (orientation:landscape) {
+
+	body{
+
+		width:800px !important;
+	}
+
+	header{
+
+		width: 800px !important;
+		height: 30px;
+
+	}
+
+	header h1{
+		-ms-transform: scale(0.7,0.7); /* IE 7 */
+		-webkit-transform: scale(0.7,0.7); /* Safari and Chrome */
+		-o-transform: scale(0.7,0.7); /* Opera */
+		-moz-transform: scale(0.7,0.7); /* Firefox */
+		margin-left: 0px;
+		margin-top: -20px;
+
+	}
+
+	#content{
+
+		width: 800px !important;
+
+	}
+
+	#content #head{
+		margin-top: 0px;
+		width: 800px !important;
+		height: 180px !important;
+
+	}
+	#content div#head section div{
+	/*height: 5px !important;*/
+}
+
+	#content #head section{
+
+		width: 800px !important;
+		margin:0 auto !important;
+		height: 180px !important;
+
+	}
+
+	#content #head section article{
+
+		width: 700px;
+		margin:0 auto !important;
+		height: 100px !important;
+	}
+
+	#content #head section article h2{
+		font-size: 2em !important;
+	}
+
+	#content #head section article h3{
+
+		font-size: 1.5em !important;
+	}
+
+	#wrapper{
+
+		padding: 10px !important;
+		margin:0 auto !important;
+		width:750px !important;
+	}
+	#wrapper #slider  {
+
+		margin-top: 10px;
+
+	}
+	#wrapper #slider div {
+
+		width: 750px;
+		margin:0 auto !important;
+
+	}
+
+	#wrapper #slider div article{
+		width: 700px;
+		margin: 0 auto;
+		float: none;
+		margin:0 auto !important;
+	}
+
+	#wrapper #slider div article p{
+		font-size: 14px !important;
+		line-height: 1.2em !important;
+	}
+
+	#wrapper #slider div section{
+		min-width:320px !important;
+		max-width: 400px !important;
+		float: none;
+		height: 200px;
+		margin:0 auto 120px 0 !important;
+		border: none;
+	}
+
+	#wrapper #slider div section h6{
+		margin-left: -50px;
+		margin-top: 20px;
+	}
+
+
+	#wrapper section div.input {
+
+		width: 750px !important;
+		margin:20px auto 40px auto !important;
+		padding-bottom: 80px;
+
+
+	}
+
+		#wrapper section div.input form{
+
+		width: 700px !important;
+		height: 100px;
+		margin:0 auto !important;
+
+	}
+
+
+	#wrapper section div.input form label{
+
+		float: none;
+
+	}
+	#wrapper section div.input form input.email-input{
+
+		width: 80%;
+		float: none;
+		margin: 0;
+
+	}
+
+	#wrapper section div.input form input.submit-button{
+
+		float: none;
+		margin-top: 20px;
+
+	}
+
+
+	#wrapper section{
+		width:750px !important;
+		margin:0 auto !important;
+		float: none;
+
+
+	}
+
+	#wrapper section h4{
+		width: 740px !important;
+		margin:0 auto 30px auto !important;
+		background-position: top left;
+		line-height: 1.2em;
+		height: 40px;
+
+
+	}
+
+	#wrapper section div{
+		float: none;
+		width:740px !important;
+		margin:0 auto !important;
+	}
+
+	#wrapper section article{
+		float: none;
+		width:740px !important;
+		margin:0 auto 20px auto !important;
+		padding: 0 0 0 10px !important;
+	}
+
+	#wrapper section article h6{
+
+		font-size: 14px !important;
+	}
+
+	#wrapper section article p{
+		font-size: 1.3em !important;
+		margin: 10px 0 40px 0 !important;
+	}
+
+	#wrapper aside{
+		margin-top:20px;
+		width:740px !important;
+		margin:0 auto !important;
+		float: none;
+		border:none;
+	}
+
+	#wrapper aside article{
+		float: none;
+		width:740px !important;
+		margin:20px auto !important;
+
+	}
+
+	#wrapper  aside article h6{
+	margin-bottom: 10px;
+
+	}
+
+
+	#wrapper section form{
+
+	margin-bottom: 0 !important;
+
+	}
+
+	header div {
+		width: 800px;
+		margin: 0 auto;
+	}
+	header nav {
+	width: 90px !important;
+	float: right;
+	margin: 0;
+	right:0px;
+	padding: 0 !important;
+	position: absolute;
+	text-align: right;
+
+}
+
+	header nav ul li{
+
+		float: none;
+		clear:both;
+		margin: 10px 10px 0 0;
+		font-size: 10px;
+
+	}
+
+
+	header nav ul li.slash{
+		display: none;
+
+	}
+
+	#wrapper #slider div img {
+
+			margin-top: 50px;
+		}
+
+
+
+	input.green-button, a.green-button {
+
+		margin: 0 auto;
+
+	}
+
+	iframe {
+		margin: 30px 0 100px 0;
+
+	}
+
+
+	header div.social-widgets {
+		height: 30px;
+		width: 110px;
+		top: 65px;
+		left: 25%;
+		right: 25%;
+		background: #11486c;
+		border-radius: 3px;
+		-o-border-radius: 3px;
+		-ms-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		margin: 0 auto !important;
+		padding-left: 12px;
+
+	}
+	header div.social-widgets a{
+	/*	float: none;
+		clear: both;*/
+		background-size: 40px;
+		width: 20px;
+		height: 20px;
+		margin: 5px 10px 7px 4px;
+	}
+
+
+
+	header div.social-widgets a:hover,
+	header div.social-widgets a.tb:hover,
+	header div.social-widgets a.fb:hover,
+	header div.social-widgets a.tw:hover {
+		background-position: -20px 0;
+	}
+#wrapper #slider div section.forms{
+		height: auto;
+		margin:0 auto -100px 0 !important;
+		padding-bottom:-50px;
+	}
+
+	#wrapper #slider div section iframe{
+
+	margin-top: 30px;
+	}
+
+	#wrapper section.apply-forms{
+	}
+
+	#wrapper section.apply-forms iframe{
+		display: none;
+	}
+
+	div.nav .wrap {
+
+		width:480px !important;
+	}
+
+
+	div.nav ul{
+	margin: 0 auto !important;
+	width: 480px;
+	}
+
+	div.nav ul li {
+	float: left;
+	padding: 14px 2px;
+	font-size: 10px;
+	border-left: 1px dotted #0f5976;
+	}
+
+	div.table-days{
+		-ms-transform: scale(0.5,0.5); /* IE 5 */
+		-webkit-transform: scale(0.5,0.5); /* Safari and Chrome */
+		-o-transform: scale(0.5,0.5); /* Opera */
+		-moz-transform: scale(0.5,0.5); /* Firefox */
+		margin: -100px 0 -100px -100px;
+	}
+
+	img.mini-thumb {
+		float: none;
+		clear: both;
+		padding: 5px;
+		width: 85%;
+	}
+}
+
+
+

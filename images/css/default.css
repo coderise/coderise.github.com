@@ -1,0 +1,527 @@
+@import url("reset.css");
+@import url("fonts/fonts.css");
+
+body {
+
+	background: #fff; /* Old browsers */
+	padding-bottom:70px;
+	text-align: center;
+	line-height: 1.2em;
+	color: #626262;
+	font-size: 62.5%;
+	font-family: "PTSansCaptionRegular", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+	height: 100%;
+	position:relative;
+	min-width:960px;
+	color: #000;	
+
+}
+
+/*----- general -----*/
+
+.clearfix {
+	clear: both;
+}
+
+/*------GRID------*/
+
+#content {
+
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	padding:40px 30px;
+
+
+}
+
+/*------header---------*/
+
+header{
+	background: #063a5b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #063a5b 0%, #11486c 53%, #11486c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#063a5b), color-stop(53%,#11486c), color-stop(100%,#11486c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #063a5b 0%,#11486c 53%,#11486c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #063a5b 0%,#11486c 53%,#11486c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #063a5b 0%,#11486c 53%,#11486c 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #063a5b 0%,#11486c 53%,#11486c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#063a5b', endColorstr='#11486c',GradientType=0 ); /* IE6-9 */
+	top:0;
+	left:0;
+	height: 60px;
+	padding: 20px 0;
+	width: 100%;
+	-webkit-box-shadow: 0px 2px 6px 1px #c3c3c3;
+box-shadow: 0px 2px 6px 1px #c3c3c3; 
+
+}
+
+
+header h1{
+	width: 352px;
+	height: 66px;
+	font-size: 6em;
+	margin: 0px auto;
+	background: url(../images/logo.png) no-repeat;
+	text-indent: -9999px;
+
+}
+
+header h1 span{
+	color:#09acb0;
+
+}
+
+/*-----banner-------*/
+
+
+#content div#head {
+	background:  #00adaf;
+	/*background:  #000;*/
+	width: 100%;
+	height: 268px;
+	/*position: relative;*/
+}
+
+#content div#head section {
+	width: 100%;
+	height: 270px;
+	margin: 0 auto 0 auto;
+	background:  url(../images/bg2.png) no-repeat center;
+	-webkit-box-shadow: inset 0px -2px 3px 1px #1a7072;
+	box-shadow: inset 0px -2px 3px 1px #1a7072;
+
+}
+
+
+#content div#head section div{
+	height: 25px;
+}
+
+#content div#head section article{
+	background: #09acb0;
+	color:#f2f2f2;
+	width: 715px;
+	height: 172px;
+	margin: 0px auto;
+	top: 100px;
+	left: 25%;
+	right: 25%;
+	padding: 20px;
+	margin-bottom: -20px;
+}
+
+#content div#head section article h2{
+	font-size: 6em;
+	font-family: 'PTSansCaptionBold';
+	line-height: 1.4em;
+	margin-bottom: 20px;
+}
+
+#content div#head section article h3{
+	font-family: 'PTSansCaptionRegular';
+	font-size: 23px;
+	line-height: 1.3em;
+	font-weight: normal !important;
+
+}
+/*-----slider-------*/
+
+#wrapper #slider div {
+	width: 940px;
+}
+
+#wrapper #slider div article{
+	width: 438px;
+	color: #626262;
+	text-align: left;
+	float: left;
+	font-size: 18px;
+	line-height: 1.4em;
+	margin-top: 15px;
+}
+
+#wrapper #slider div article p{
+	margin-bottom: 10px;
+}
+
+#wrapper #slider div section{
+	width: 442px;
+	height: 360px;
+	float: right;
+}
+
+
+/*-----form -----*/
+
+#wrapper section{
+
+	padding: 20px 0;
+
+
+}
+
+#wrapper section form{
+	
+}
+
+#wrapper section form fieldset{
+
+	width: 800px;	
+	height: 50px;
+	margin: 0 auto;
+	
+}
+
+#wrapper section form fieldset legend{
+	font-family: 'PTSansCaptionBold';
+	color:#09a1a1;
+	font-size: 25px;
+	line-height: 1.8em;
+	display: inline;
+	width: 80px;
+		text-align: center;
+	float: left;
+}
+#wrapper section form fieldset input{
+	width: 540px;
+	padding: 10px 5px;	
+	font-size: 1.2em;
+	color:#626262;
+	display: inline;
+	-webkit-box-shadow: inset 1px -2px 3px 1px #c3c3c3;
+	box-shadow: inset 1px -2px 3px 1px #c3c3c3;
+}
+
+#wrapper section form fieldset button{
+	background: #09a1a1;
+	color:#fff;
+	padding: 9px 30px;
+	font-size: 2em;
+	font-family: 'PTSansCaptionBold';
+	margin-left: 10px;
+	-webkit-border-radius: 8px 0px 8px 0px;
+	border-radius: 8px 0px 8px 0px; 
+}
+
+#wrapper section h4{
+	color:#09a1a1;
+	font-size: 25px;
+	line-height: 1.8em;
+	text-align: left;
+	padding-left: 40px;
+	background: url(../images/icon.png) no-repeat left;
+
+}
+#wrapper section div{
+	width: 688px;
+	float: left;
+}
+
+
+#wrapper section div article{
+	width: 280px;
+	height: 132px;
+	padding: 10px 10px 10px 20px;
+	float: left;
+	margin: 10px;
+	text-align: left;
+	color: #626262;
+	background: url(../images/bx.png) no-repeat left;
+
+}
+
+#wrapper section div article h5{
+	font-size: 16px;
+	font-family: 'PTSansCaptionBold';
+	margin-bottom: 10px;
+	margin-top: 20px;
+
+}
+
+#wrapper section div article p{
+	font-size: 14px;
+	line-height: 1.2em;
+
+}
+
+#wrapper  aside{
+	float: left;
+	border-left: 1px solid #3b9494;
+	text-align: left;
+	width: 216px;
+}
+
+#wrapper  aside article{
+	margin: 0px 0px 10px 20px;
+	margin-bottom: 40px;
+}
+
+
+#wrapper  aside article h6{
+	font-size: 18px;
+	line-height: 1.2em;
+	font-family: 'PTSansCaptionBold';
+	color:#09a1a1;
+
+}
+
+#wrapper  aside article p{
+	color:#626262;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+#wrapper  aside article a{
+	color:#626262;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+#wrapper  aside article p a:hover,
+#wrapper  aside article a:hover{
+	color:#09a1a1;
+	text-decoration: underline;
+}
+
+div.bx-pager a.pager-link{
+	text-indent: -9999px;
+
+}
+
+div.bx-pager a.pager-link span.pager{
+	background: url(../images/pager.png) no-repeat;
+	width: 18px;
+	height: 18px;
+	padding: 5px 8px 5px 5px;
+	text-indent: -9999px;
+	margin: 20px;
+	font-size: 0.1em;
+}
+
+div.bx-auto a{
+	/*color: #626262;*/
+	font-size: 12px;
+	line-height: 2em;
+	font-family: 'PTSansCaptionBold';
+	color:#09a1a1;
+}
+
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+	body{
+		
+		min-width:320px !important;
+		max-width: 480px !important; 
+	}
+
+	header{
+		
+		min-width:320px !important;
+		max-width: 480px !important;  
+		height: 30px;
+		
+	}
+
+	header h1{
+		-ms-transform: scale(0.7,0.7); /* IE 7 */
+		-webkit-transform: scale(0.7,0.7); /* Safari and Chrome */
+		-o-transform: scale(0.7,0.7); /* Opera */
+		-moz-transform: scale(0.7,0.7); /* Firefox */
+		margin-left: -20px;
+		margin-top: -20px;
+
+	}
+
+	#content{
+		
+		min-width:320px !important; 
+		max-width: 480px !important;
+
+	}
+
+	#content #head{
+		
+		min-width:320px !important;
+		max-width: 480px !important; 
+
+	}
+
+	#content #head section{
+		min-width:320px !important; 
+		max-width: 480px !important;
+		margin:0 auto !important;
+		
+	}
+
+	#content #head section article{
+		
+		min-width: 250px; 
+		max-width: 250px;
+		height: 180px;
+		margin:0 auto !important;
+	}
+
+	#content #head section article h2{
+		font-size: 2em !important; 
+	}
+
+	#content #head section article h3{
+
+		font-size: 1.5em !important;
+	}
+
+	#wrapper{
+
+		padding: 10px !important;
+		margin:0 auto !important;
+		width:300px !important; 
+	}
+	#wrapper #slider  { 
+
+
+	}
+	#wrapper #slider div { 
+
+		min-width:280px; 
+		max-width: 300px;
+		margin:0 auto !important;
+
+	}
+
+	#wrapper #slider div article{ 
+		min-width:280px; 
+		max-width: 280px;	
+		margin: 0 auto;
+		float: none;
+		margin:0 auto !important;
+	}
+
+	#wrapper #slider div article p{ 
+		font-size: 12px !important;
+		line-height: 1.2em !important;
+	}
+
+	#wrapper #slider div section{ 
+		min-width:280px !important;
+		max-width: 280px !important;
+		float: none;
+		height: 280px;
+		margin:0 auto !important;
+	}
+
+	#wrapper section{
+		width: 280px !important;
+		margin:0 auto !important;
+
+	}
+
+	#wrapper section form{
+		
+		min-width:280px !important;
+		max-width: 360px !important;
+		margin:0 auto !important;
+		padding-bottom: 30px;
+
+
+	}
+
+	#wrapper section form fieldset{
+		width: 280px !important;
+		height: 100px;
+		margin:0 auto !important;
+
+
+	}
+
+	#wrapper section form fieldset legend{
+		float: none;
+		
+
+	}
+
+
+	#wrapper section form fieldset input{
+		width: 80%;
+		float: none;
+		margin: 0;
+
+	}
+
+	#wrapper section form fieldset button{
+		float: none;
+		margin-top: 20px;
+
+	}
+
+	#wrapper section{
+		max-width: 360px !important;
+		min-width:280px !important;
+		margin:0 auto !important;
+		float: none;
+
+
+	}
+
+	#wrapper section h4{
+		width: 260px !important;
+		margin:0 auto !important;
+		background-position: top left;
+		line-height: 1.2em;
+
+
+	}
+
+	#wrapper section div{
+		float: none;
+		width:260px !important;
+		margin:0 auto !important;
+	}
+
+	#wrapper section article{
+		float: none;
+		width:260px !important;
+		margin:0 auto 20px auto !important;
+		padding: 0 0 0 10px !important;
+	}
+
+	#wrapper section article h5{
+
+		font-size: 14px !important;
+	}
+
+	#wrapper section article p{
+		font-size: 1.3em !important;
+	}
+
+	#wrapper aside{
+		margin-top:20px;
+		width:260px !important;
+		margin:0 auto !important;
+		float: none;
+		border:none;
+	}
+
+	#wrapper aside article{
+		float: none;
+		width:260px !important;
+		margin:0 auto !important;
+
+	}
+
+
+}
+
+
+
+
+
+
+
+
