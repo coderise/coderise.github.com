@@ -394,10 +394,10 @@ a.badge:hover {
 .btn.disabled,
 .btn[disabled] {
   cursor: default;
-  background-color: #e6e6e6;
+  background-color: #C0C0C0;
   background-image: none;
-  opacity: 0.65;
-  filter: alpha(opacity=65);
+  *opacity: 0.65;
+  *filter: alpha(opacity=65);
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
