@@ -753,7 +753,7 @@ div.entry p {
 	line-height: 1.3em;
 }
 
-div.entry div.time {
+article.full-width div.time {
 	font-size: 12px;
 	line-height: 22px;
 	color: #a7a9aa;
@@ -896,4 +896,28 @@ form.paypal-form{
 	border: 1px solid #EFEFEF;
 	margin: 0 0 20px;
 	padding: 25px;
+}
+section.release a {
+	cursor: pointer;
+}
+section.release h6 {
+	font-size: 24px;
+}
+section.release .deck {
+	font-size: 20px;
+	margin-top: 12px;
+}
+section.release strong {
+	font-family: 'PTSansCaptionBold';
+}
+section.release .body {
+	font-size: 16px;
+	color: #818486;
+	display: none;
+}
+section.release blockquote {
+	background: #f8f8f8 url(../images/quote.png) no-repeat 17px 21px;
+	font: italic 15px/1.6 'PT Serif', Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	padding: 20px 20px 20px 55px;
+	margin: 10px auto;
 }
