@@ -248,7 +248,7 @@ header[role="promo"]{
     margin: 0 auto;
     width: 480px;
     height: 270px;
-    *padding: 40px 0;
+    padding: 40px 0;
   }
 
   header[role="promo"] article{
@@ -733,7 +733,7 @@ footer {
   }
 
   .video{
-    *padding: 20px 0;
+    padding: 20px 0;
   }
 
   header[role="promo"] article {
