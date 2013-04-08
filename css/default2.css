@@ -22,7 +22,7 @@ body{
   font-size: 18px;
   line-height: 150%;
   vertical-align: baseline;
-  color: #000;
+  color: #626263;
   background: #fff;
   -webkit-font-smoothing: antialiased;
 }
@@ -418,6 +418,18 @@ h2.title {
 
 /* Portfolio
  *************************************/
+#portfolio article{
+  border: #ddd 1px solid;
+  border-radius: 3px;
+  margin-top: 55px;
+}
+
+#portfolio .header{
+  position: relative;
+  background-color: #f8f8f8;
+  border-bottom: #ddd 1px solid;
+  height: 55px;
+}
 
 #portfolio h6{
   font-size: 0.85rem;
@@ -425,24 +437,18 @@ h2.title {
 }
 #portfolio img {
   background-color: #fff;
-  margin: 0 auto -5px;
-  width: 300px;
-  height: 190px;
-}
-
-#portfolio .project-meta {
-  display: block;
-  margin: 0;
-  padding: 20px 0 0;
-  overflow: hidden;
+  margin: -45px auto -5px;
+  width: 120px;
+  height: 76px;
 }
 
 #portfolio .categories {
   font-size: 0.85rem;
-  color: #aeaeae;
+  color: #626263;
   display: block;
   font-style: italic;
   margin-bottom: 20px;
+  font-family: "PTSansCaptionBold";
 }
 
 /* Press
@@ -693,10 +699,6 @@ footer {
     min-height: 250px;
   }
 
-  #portfolio img {
-    width: 210px;
-    height: 133px;
-  }
 }
 
 @media handheld, only screen and (max-width: 767px) {
@@ -765,11 +767,6 @@ footer {
 
   #team div.sixcol:not(.last) {
     margin-bottom: 40px;
-  }
-
-  #portfolio img {
-    width: 300px;
-    height: 190px;
   }
 
   ul#tabs{
