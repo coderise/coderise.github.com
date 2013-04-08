@@ -105,11 +105,12 @@ img.thumbs {
  *************************************/
 
 .btn{
+  font-family: "PTSansCaptionBold";
   cursor: pointer;
   color: #ffffff;
   background-color: #063a5b;
   display: inline-block;
-  padding: 1.05rem;
+  padding: 0.9rem;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: .3em;
