@@ -737,6 +737,7 @@ footer {
   }
 
   header[role="promo"] article {
+    width: 100%;
     padding: 0 0 20px 0;
     margin: 0 auto;
     text-align: center;
@@ -804,10 +805,6 @@ footer {
   .video{
     width: 240px;
     height: 135px;
-  }
-
-  header[role="promo"] article {
-    width: 240px;
   }
 
   #keypoints article {
