@@ -331,11 +331,10 @@ section[role="content"] h3{
 a.localization{
   font-size: 0.75rem;
   margin-top: 9px;
-  margin-left: 5px;
   color: #fff;
 }
 span.globe{
-  margin-top: 9px;
+  margin: 9px 5px 0px 10px;
   background: url(../images/globe-icon.png) no-repeat left;
   height: 24px;
   width: 24px;
