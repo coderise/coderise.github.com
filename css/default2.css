@@ -1,4 +1,5 @@
-@import url("fonts/fonts.css");
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
 
 /* Basics
  *************************************/
@@ -16,10 +17,10 @@ ul{
 }
 html, body{
   height: 100%;
+  font-size: 18px;
 }
 body{
-  font-family: "PTSansCaptionRegular", sans-serif;
-  font-size: 18px;
+  font-family: "PT Serif", sans-serif;
   line-height: 150%;
   vertical-align: baseline;
   color: #626263;
@@ -35,34 +36,33 @@ a{
 }
 h1,h2,h3,h4,h5,h6{
   color: #09a1a1;
-  font-family: "PTSansCaptionBold";
-  font-weight: normal;
+  font-family: "PT Sans Narrow", sans-serif;
   text-transform: uppercase;
 }
 
 h1{
-  font-size: 1.55rem;
-  letter-spacing: .175em;
+  font-size: 1.75rem;
+  letter-spacing: .3rem;
 }
 h2{
-  font-size: 1.45rem;
-  letter-spacing: .165em;
+  font-size: 1.55rem;
+  letter-spacing: .2em;
 }
 h3{
   font-size: 1.35rem;
-  letter-spacing: .155em;
+  letter-spacing: .15em;
 }
 h4{
   font-size: 1.25rem;
-  letter-spacing: .145em;
+  letter-spacing: .1em;
 }
 h5{
   font-size: 1.15rem;
-  letter-spacing: .135em;
+  letter-spacing: .1em;
 } 
 h6{
   font-size: 1.05rem;
-  letter-spacing: .125em;
+  letter-spacing: .1em;
   text-transform: none;
 }
 
@@ -86,11 +86,14 @@ h6{
 img.mini-thumb {
   width: 270px;
   height: auto;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  display: block;
   margin: 10px auto;
+  display: block;
+  -webkit-border-top-left-radius: 4px;
+     -moz-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+     -moz-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
 }
 
 img.thumbs {
@@ -105,29 +108,31 @@ img.thumbs {
  *************************************/
 
 .btn{
-  font-family: "PTSansCaptionBold";
-  cursor: pointer;
-  color: #ffffff;
-  background-color: #063a5b;
-  display: inline-block;
-  padding: 0.9rem;
+  font-family: "PT Sans Narrow";
   font-size: 1rem;
+  font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: .3em;
+  letter-spacing: .3rem;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: rgba(6, 58, 91, 0.75);
+  display: inline-block;
+  padding: 1rem;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
 }
   .btn:hover{
-    background-color: rgba(6, 58, 91, 0.75);
+    background-color: rgba(6, 58, 91, 1);
     -webkit-transition: all .25s;
      -moz-transition: all .25s;
           transition: all .25s;
   }
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
-  background-color: white;
+  font-family: "PT Serif", sans-serif;
   font-size: 1rem;
+  background-color: white;
   outline: none;
   border: 1px solid #e2e2e2;
   color: #626262;
@@ -210,10 +215,11 @@ header[role="banner"]{
         header[role="banner"] li a{
           color: #f2f2f2;
           display: block;
-          font-family: "PTSansCaptionBold";
-          font-size: .715em;
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: bold;
+          font-size: .75rem;
           text-transform: uppercase;
-          letter-spacing: .115em;
+          letter-spacing: .15rem;
           -webkit-transition: all .25s;
             -moz-transition: all .25s;
               transition: all .25s;
@@ -252,8 +258,9 @@ header[role="promo"]{
   }
 
   header[role="promo"] article{
-    width: 420px;
-    padding: 70px 0;
+    width: 480px;
+    padding: 57px 0;
+    margin: 0 auto;
   }
 
     header[role="promo"] article h1 {
@@ -261,8 +268,9 @@ header[role="promo"]{
     }
 
     header[role="promo"] article p{
+      font-size: 1.05rem;
       color: #063a5b;
-      margin-bottom: 1em;
+      margin-bottom: 1.75em;
       text-align: justify;
     }
 
@@ -273,8 +281,8 @@ header[role="promo"]{
   text-align: left;
  }
 
- #email-banner h5{
-  padding: 0.75em 0;
+ #email-banner h2 {
+  margin: 0;
  }
   #email-banner input[type="email"] {
     width: 60%;
@@ -290,18 +298,6 @@ header[role="promo"]{
   margin: 0 auto 20px auto;
   line-height: 150%;
   text-align: justify; 
-  font-size: 0.915em; 
-}
-  #description .meta{
-    background: #f2f2f2;
-    width: 384px;
-    margin: -10px auto;
-    padding: 10px 0;
-    text-transform: uppercase;
-  }
-
-section[role="content"] h3{
-  margin-bottom: 20px;
 }
 
 #keypoints article{
@@ -310,25 +306,26 @@ section[role="content"] h3{
 
 #keypoints article{
   background: #fff;
+  padding: 10px;
+  text-align: center; 
+  width: 95%;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
   -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
       box-sizing: border-box;
-  border-radius: 4px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  padding: 10px 5px;
-  text-align: center; 
-  width: 95%;
 }
 
 #keypoints p{
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   line-height: 150%;
-  margin-top: 10px;
 }
 
 /* Social Widgets
  *************************************/
 a.localization{
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 0.75rem;
   margin-top: 9px;
   color: #fff;
@@ -394,9 +391,17 @@ h2.title {
   float: left;
 }
 
-#objectives li{
-  line-height: 1.5em;
-  margin-bottom: 20px;
+#objectives article{
+  width: 243px;
+  min-height: 232px;
+  background: #FFF;  
+  margin: 0 auto 20px;  
+}
+
+#objectives article p{
+  padding: 10px;
+  font-size: 0.85rem;
+  line-height: 150%;
 }
 
 .square {
@@ -443,19 +448,18 @@ h2.title {
 }
 
 #portfolio .categories {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
+  line-height: 150%;
   color: #626263;
   display: block;
-  font-style: italic;
   margin-bottom: 20px;
-  font-family: "PTSansCaptionBold";
 }
 
 /* Press
  *************************************/
 
 ul#tabs {
-  margin: 4px 0;
+  margin: 6px 0;
 }
 ul#tabs li{
   float: left;
@@ -647,32 +651,23 @@ footer {
 
 @media handheld, only screen and (max-width: 1023px) {
   p {
-    font-size: 0.9em;
+    font-size: 0.85rem;
   }
 
   h1{
     font-size: 1.45rem;
-    letter-spacing: .165em;
   }
 
   h2{
-    font-size: 1.35rem;
-    letter-spacing: .155em;
-  }
-
-  h3{
     font-size: 1.25rem;
-    letter-spacing: .145em;
   }
 
-  h5{
-    font-size: 1.05em;
-    letter-spacing: .125em;
+  h4{
+    font-size: 1.05rem;
   }
 
   h6{
-    font-size: 0.90em;
-    letter-spacing: .115em;
+    font-size: 0.95rem;
     line-height: 150%
   }
 
@@ -691,12 +686,26 @@ footer {
   }
 
   header[role="promo"] article {
-    padding: 40px 0;
+    padding: 28px 0;
     width: 336px;
+  }
+
+  header[role="promo"] article p {
+    font-size: 1rem;
+    margin-bottom: 1.45em;
   }
 
   #keypoints article{
     min-height: 250px;
+  }
+
+  #objectives article {
+    width: 150px;
+    min-height: 200px;
+  }
+
+  #objectives article p, #keypoints p {
+    font-size: 0.75rem;
   }
 
 }
@@ -761,6 +770,10 @@ footer {
     min-height: 100px;
   }
 
+  #objectives article {
+    width: 270px;
+  }
+
   #mentors div.fourcol:not(.last) {
     margin-bottom: 40px;
   }
@@ -770,10 +783,10 @@ footer {
   }
 
   ul#tabs{
-    margin: 0;
+    margin: 4px 0;
   }
   ul#tabs li a{
-    padding: 3px 5px !important;
+    padding: 2px 5px !important;
     font-size: 0.9rem;
   }
 
@@ -784,12 +797,23 @@ footer {
 
 @media handheld, only screen and (max-width: 479px) {
   h1{
-    font-size: 1.05em;
-    letter-spacing: 0.15em;
+    font-size: 1.15rem;
   }
 
-  p{
-    font-size: 0.75em;
+  h2 {
+    font-size: 1.05rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  p, #objectives article p{
+    font-size: 0.75rem;
+  }
+
+  header[role="promo"] article p {
+    font-size: 0.85rem;
   }
 
   .logo{
