@@ -798,6 +798,7 @@ footer {
 @media handheld, only screen and (max-width: 479px) {
   h1{
     font-size: 1.15rem;
+    letter-spacing: 0.2rem;
   }
 
   h2 {
