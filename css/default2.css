@@ -327,7 +327,7 @@ header[role="promo"]{
 a.localization{
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 0.85rem;
-  margin-top: 7px;
+  margin-top: 9px;
   color: #fff;
   padding-left: 20px;
 }
@@ -336,6 +336,7 @@ div.social-widgets {
   width: 160px;
   float: right;
   padding-right: 10px;
+  margin-top: 7px;
 }
   div.social-widgets a{
     text-indent: -9999px;
