@@ -335,7 +335,7 @@ div.social-widgets {
   height: 32px;
   width: 160px;
   float: right;
-  margin-top: 7px;
+  padding-right: 10px;
 }
   div.social-widgets a{
     text-indent: -9999px;
