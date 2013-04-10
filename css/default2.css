@@ -325,18 +325,12 @@ header[role="promo"]{
 /* Social Widgets
  *************************************/
 a.localization{
+  display: inline-block;
   font-family: "PT Sans Narrow", sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   margin-top: 9px;
   color: #fff;
 }
-span.globe{
-  margin: 9px 5px 0px 10px;
-  background: url(../images/globe-icon.png) no-repeat left;
-  height: 24px;
-  width: 24px;
-}
-
 div.social-widgets {
   height: 32px;
   width: 160px;
