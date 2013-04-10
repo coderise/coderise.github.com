@@ -224,7 +224,7 @@ header[role="banner"]{
             -moz-transition: all .25s;
               transition: all .25s;
         }
-          header[role="banner"] li a:hover, header[role="banner"] li.active > a{
+          header[role="banner"] li a:hover, header[role="banner"] li.active > a, a.localization:hover {
             opacity: 1;
             color: #09acb0;
           }
