@@ -325,11 +325,11 @@ header[role="promo"]{
 /* Social Widgets
  *************************************/
 a.localization{
-  display: inline-block;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 0.85rem;
-  margin-top: 9px;
+  margin-top: 7px;
   color: #fff;
+  padding-left: 20px;
 }
 div.social-widgets {
   height: 32px;
