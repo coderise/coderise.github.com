@@ -202,7 +202,7 @@ header[role="banner"]{
       header[role="banner"] li{
         display: block;
         float: left;
-        padding: 31px 12px;
+        padding: 30px 20px;
       }
 
       header[role="banner"] li.last{
@@ -217,9 +217,8 @@ header[role="banner"]{
           display: block;
           font-family: "PT Sans Narrow", sans-serif;
           font-weight: bold;
-          font-size: .95rem;
+          font-size: 1rem;
           text-transform: uppercase;
-          letter-spacing: .15rem;
           -webkit-transition: all .25s;
             -moz-transition: all .25s;
               transition: all .25s;
