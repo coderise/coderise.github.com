@@ -217,7 +217,7 @@ header[role="banner"]{
           display: block;
           font-family: "PT Sans Narrow", sans-serif;
           font-weight: bold;
-          font-size: .75rem;
+          font-size: .95rem;
           text-transform: uppercase;
           letter-spacing: .15rem;
           -webkit-transition: all .25s;
@@ -242,6 +242,11 @@ header[role="banner"]{
           float: none;
           border-top: 1px solid rgba(9,161,161,0.2);
         }
+
+        header[role="banner"] ul ul li a {
+          text-transform: none;
+        }
+
 
 /* Video Banner
  *************************************/
