@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 @import url(http://fonts.googleapis.com/css?family=PT+Serif);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
 /* Basics
  *************************************/
@@ -229,11 +230,13 @@ header[role="banner"]{
           }
       header[role="banner"] ul ul{
         display: none;
+        min-width: 150px;
         z-index: 99;
         position: absolute;
         margin-top: 30px;
         margin-left: 0px;
         background: #11486c;
+        border-bottom: 1px solid rgba(9,161,161,0.2);
       }
         header[role="banner"] ul ul li {
           margin: 0 !important;
@@ -244,6 +247,8 @@ header[role="banner"]{
 
         header[role="banner"] ul ul li a {
           text-transform: none;
+          font-family: "PT Sans", sans-serif;
+          font-weight: normal;
         }
 
 
@@ -734,12 +739,6 @@ footer {
   header[role="banner"] ul li {
     float: none;
     padding: 10px;
-    border-bottom: 1px solid rgba(9,161,161,0.2);
-  }
-
-  header[role="banner"] ul ul li{
-    border-top: none;
-    padding:10px;
   }
 
   .video{
