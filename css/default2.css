@@ -219,6 +219,7 @@ header[role="banner"]{
           font-family: "PT Sans Narrow", sans-serif;
           font-weight: bold;
           font-size: 1rem;
+          letter-spacing: 0.1rem;
           text-transform: uppercase;
           -webkit-transition: all .25s;
             -moz-transition: all .25s;
@@ -248,7 +249,8 @@ header[role="banner"]{
         header[role="banner"] ul ul li a {
           text-transform: none;
           font-family: "PT Sans", sans-serif;
-          font-weight: normal;
+          font-weight: bold;
+          font-size: 0.9rem;
         }
 
 
