@@ -2,6 +2,15 @@
   "index": {
     "layout": "../_layout"
   },
+  "lorem-1": {
+    "title": "The Lorem Hipster"
+  },
+  "lorem-2": {
+    "title": "El Hipster Lorem"
+  },
+  "hola-medellin": {
+    "title": "Hola Medellín!"
+  },
   "posts": {
     "lorem-1": {
       "title": "The Lorem Hipster",

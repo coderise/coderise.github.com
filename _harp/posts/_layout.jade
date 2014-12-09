@@ -1,7 +1,9 @@
 doctype html
 html
 	head
-		title Coderise
+		title= title
+		meta(charset="UTF-8")
+		meta(name="description" content="#{ description })")
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
 		script(src="http://code.jquery.com/jquery-latest.js", type="text/javascript")
@@ -10,7 +12,7 @@ html
 		script(src="/js/googleAnalytics.js", type="text/javascript")
 		link(href="/css/default2.css", type="text/css", rel="stylesheet", media="all")
 		link(href="/css/1140.css", type="text/css", rel="stylesheet", media="all")
-		link(rel="icon", type="image/png", href="favicon.png")
+		link(rel="icon", type="image/png", href="/favicon.png")
 	body
 		#container
 			header.container(role="banner")
@@ -55,13 +57,13 @@ html
 			section#posts(role="content")
 				section.wrap-mini.wrap-gray.container#post
 					.row
-						h2.twelvecol.title
-							!= title
-							|  - Blog
+						h2.twelvecol.title= title
 				section.wrap-mini.container
 					.row
 						.twelvecol
 							!= yield
+							if current.path[0] == "posts"
+								!= partial("_comments")
 
 			footer.wrap-mini.wrap-navy
 				.row

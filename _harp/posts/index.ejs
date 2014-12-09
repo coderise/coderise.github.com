@@ -18,8 +18,8 @@
 				<div class="sixcol">
 					<div class="entry">
 						<div class="time"><%= post.date %> - <a href="https://twitter.com/<%= author.twitter %>" target="_blank"><%= author.name %></a></div>
-						<a href="/posts/<%= slug %>"><h6><%= post.title %></h6></a>
-						<div><%- excerpt(partial(slug)) %></div>
+						<a href="/posts/<%= slug %>"><h5><%= post.title %></h5></a>
+						<div class="partialslug"><%- excerpt(partial(slug)) %></div>
 						<a class="btn btn-primary btn-3d pull-right" href="/posts/<%= slug %>">Leer m&aacute;s</a>
 					</div>
 				</div>

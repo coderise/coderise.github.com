@@ -1,0 +1,29 @@
+{
+  "about": {
+    "title": "About Us - Coderise"
+  },
+  "apply": {
+    "title": "Apply - Coderise"
+  },
+  "contribute": {
+    "title": "Contribute - Coderise"
+  },
+  "how": {
+    "title": "How it works - Coderise"
+  },
+  "mentors": {
+    "title": "Mentors - Coderise"
+  },
+  "press": {
+    "title": "Press Coverage - Coderise"
+  },
+  "releases": {
+    "title": "Press Releases - Coderise"
+  },
+  "students": {
+    "title": "Students - Coderise"
+  },
+  "team": {
+    "title": "Team - Coderise"
+  }
+}
