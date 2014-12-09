@@ -1,0 +1,28 @@
+<!-- Articulos -->
+<% function excerpt(content) { %>
+	<% return content.split('<!-- more -->')[0]; %>
+<% } %>
+
+<section role="content" id="lisposts">
+	<section class="wrap-mini wrap-gray container">
+		<div class="row">
+			<h2 class="twelvecol title">&Uacute;ltimos art&iacute;culos</h2>
+		</div>
+	</section>
+	<section class="wrap-mini container">
+		<div class="row entries">
+			<% var posts = public.posts._data.posts; %>
+			<% for(var slug in posts) {  %>
+				<% var post = posts[slug]; %>
+				<% var author = public.posts._data.authors[post.author]; %>
+				<div class="sixcol">
+					<div class="entry">
+						<div class="time"><%= post.date %> - <a href="https://twitter.com/<%= author.twitter %>" target="_blank"><%= author.name %></a></div>
+						<a href="/posts/<%= slug %>"><h6><%= post.title %></h6></a>
+						<div><%- excerpt(partial(slug)) %></div>
+						<a class="btn btn-primary btn-3d pull-right" href="/posts/<%= slug %>">Leer m&aacute;s</a>
+					</div>
+				</div>
+			<% } %>
+		</div>
+</section>

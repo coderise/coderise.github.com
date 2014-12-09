@@ -1,0 +1,7 @@
+{
+  "globals": {
+  	"url": "http://coderise.org",
+    "title": "Coderise",
+    "description": "Coderise empowers young students in developing nations by teaching them how to build great web applications."
+  }
+}
