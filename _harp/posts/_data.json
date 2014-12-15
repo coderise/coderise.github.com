@@ -1,0 +1,27 @@
+{
+  "index": { "layout": "../_layout" },
+  "lorem-1": { "title": "The Lorem Hipster" },
+  "lorem-2": { "title": "El Hipster Lorem" },
+  "hola-medellin": { "title": "Hola Medellín!" },
+  "posts": {
+    "lorem-1": {
+      "title": "The Lorem Hipster",
+      "author": "josuedanielbust",
+      "date": "Dec 8, 2014"
+    },
+    "lorem-2": {
+      "title": "El Hipster Lorem",
+      "author": "josuedanielbust",
+      "date": "Dec 8, 2014"
+    },
+    "hola-medellin": {
+      "title": "Hola Medellín!",
+      "author": "julianduque",
+      "date": "Mar 5, 2014"
+    }
+  },
+  "authors": {
+    "julianduque": { "name": "Julián Duque", "twitter": "julian_duque", "github": "julianduque", "website": "https://about.me/julianduque" },
+    "josuedanielbust": { "name": "Josue Daniel Bustamante", "twitter": "josuedanielbust", "github": "josuedanielbust", "website": "https://about.me/josuedanielbust" }
+  }
+}
