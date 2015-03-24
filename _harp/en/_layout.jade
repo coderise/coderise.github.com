@@ -1,0 +1,68 @@
+doctype html
+html
+	head
+		title= title
+		meta(charset="UTF-8")
+		meta(name="description" content="#{ description })")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
+		script(src="http://code.jquery.com/jquery-latest.js", type="text/javascript")
+		script(src="/js/default.js", type="text/javascript")
+		script(src="/js/tabs.js", type="text/javascript")
+		script(src="/js/googleAnalytics.js", type="text/javascript")
+		link(href="/css/default2.css", type="text/css", rel="stylesheet", media="all")
+		link(href="/css/1140.css", type="text/css", rel="stylesheet", media="all")
+		link(rel="icon", type="image/png", href="/favicon.png")
+	body
+		#container
+			header.container(role="banner")
+				.row
+					.twelvecol
+						a.logo(href="/en/index.html")
+							| //coderise
+						a.icon-list menu
+						nav(role="navigation")
+							ul
+								li.dropdown
+									a(href="javascript:void(0)")
+										| About
+										span.icon-dropdown-arrow &#9660;
+									ul
+										li
+											a(href="/en/about.html") About us
+										li
+											a(href="/en/how.html") How it works
+										li
+											a(href="/en/team.html") Our Team
+										li
+											a(href="/en/mentors.html") Mentors
+										//- li
+											a(href="/en/students.html") Our Students
+								li.dropdown
+									a(href="javascript:void(0)")
+										| Press
+										span.icon-dropdown-arrow &#9660;
+									ul
+										li
+											a(href="/en/press.html") Coverage
+										li
+											a(href="/en/releases.html") Press Releases
+								//- li
+									a(href="https://support.coderise.org") Support
+								li
+									a(href="/en/apply.html") Apply
+								//- li
+									a(href="/posts/") Blog
+								li.last
+									a(href="/index.html") Español
+
+			!= yield
+
+			footer.wrap-mini.wrap-navy
+				.row
+					a.left.localization(href="/es/index.html") Coderise en ESPAÑOL
+					.social-widgets
+						a.w-tb(href="http://coderise.tumblr.com/")
+						a.w-tw(href="http://twitter.com/Code_rise")
+						a.w-fb(href="http://www.facebook.com/Coderise")
+		script(type="text/javascript", src="js/kickofflabs.js")
